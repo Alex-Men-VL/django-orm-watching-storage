@@ -17,12 +17,14 @@ $ pip install -r requirements.txt
 ```
 * Введите свои данные в файл `.env`:
 ```bash
-HOST=<enter host>
-NAME=<enter name>
-BANK_USER=<enter username>
-PASSWORD=<enter password>
-SECRET_KEY=<enter secret key>
-DEBUG=<enter true/false>
+DB_ENGINE=<enter engine>
+DB_HOST=<enter host>
+DB_PORT=<enter port>
+DB_NAME=<enter name>
+DB_BANK_USER=<enter username>
+DB_PASSWORD=<enter password>
+DB_SECRET_KEY=<enter secret key>
+DB_DEBUG=<enter true/false>
 ```
 * Запустите код командой:
 ```bash
