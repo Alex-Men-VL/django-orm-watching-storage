@@ -21,10 +21,14 @@ DB_ENGINE=<enter engine>
 DB_HOST=<enter host>
 DB_PORT=<enter port>
 DB_NAME=<enter name>
-DB_BANK_USER=<enter username>
+DB_USER=<enter username>
 DB_PASSWORD=<enter password>
-DB_SECRET_KEY=<enter secret key>
-DB_DEBUG=<enter true/false>
+SECRET_KEY=<enter secret key>
+DEBUG=<enter true/false>
+```
+* Настройка `ALLOWED_HOSTS`:
+```bash
+$ export ALLOWED_HOSTS=<enter hosts>
 ```
 * Запустите код командой:
 ```bash
